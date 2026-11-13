@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>United Hub — ELD &amp; HOS Control for US Carriers</title>
+<meta name="description" content="United ELD Hub — 24/7 ELD, Hours-of-Service and safety management for US carriers. Six years in the industry, replies within a minute.">
+<meta name="theme-color" content="#05070d">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="United ELD Hub">
+<meta property="og:title" content="United Hub — ELD &amp; HOS Control for US Carriers">
+<meta property="og:description" content="24/7 ELD, Hours-of-Service and safety management for US carriers.">
+<meta property="og:image" content="/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<script>(function(){var t;try{t=localStorage.getItem('uh-theme')}catch(e){}if(t!=='light'&&t!=='dark')t=matchMedia('(prefers-color-scheme: light)').matches?'light':'dark';document.documentElement.dataset.theme=t})()</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+
+<header id="hdr">
+  <div class="nav">
+    <a href="#top" class="logo"><img src="/assets/logo-mark.svg" alt="" width="28" height="28">UNITED<b>HUB</b></a>
+    <nav class="menu" aria-label="Main">
+      <a href="#services" data-t="n1">Services</a>
+      <a href="#monitoring" data-t="n2">Monitoring</a>
+      <a href="#plans" data-t="n3">Plans</a>
+      <a href="#steps" data-t="n4">How it works</a>
+      <a href="#contact" data-t="n5">Contact</a>
+    </nav>
+    <div class="nav-r">
+      <div class="lang" role="group" aria-label="Language"><button data-lang="en">EN</button><button data-lang="ru">RU</button><button data-lang="uz">UZ</button></div>
+      <button class="icon-btn" id="theme" aria-label="Toggle light / dark theme"><span class="moon">☾</span><span class="sun">☀</span></button>
+      <a href="#contact" class="btn btn-w btn-sm" data-t="book">Book a call</a>
+      <button class="icon-btn burger" id="burger" aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</header>
+<div class="mnav" id="mnav">
+  <a href="#services" data-t="n1">Services</a><a href="#monitoring" data-t="n2">Monitoring</a><a href="#plans" data-t="n3">Plans</a><a href="#steps" data-t="n4">How it works</a><a href="#contact" data-t="n5">Contact</a>
+  <div class="lang" role="group" aria-label="Language"><button data-lang="en">EN</button><button data-lang="ru">RU</button><button data-lang="uz">UZ</button></div>
+</div>
+
+<main>
+<!-- SCROLL SCENE: particles -> truck -> clock -> globe -->
+<section class="scene" id="top">
+  <div class="scene-sticky">
+    <canvas id="pc" aria-hidden="true"></canvas>
+    <div class="scene-hud" aria-hidden="true">
+      <span data-t="hud1">01 · FLEET</span><span data-t="hud2">02 · CLOCK</span><span data-t="hud3">03 · COVERAGE</span>
+    </div>
+    <div class="cap cap-0 on">
+      <span class="pill" data-t="pill">⚡ Free fleet log audit</span>
+      <h1 class="wide">UNITED HUB</h1>
+      <div class="sub" data-t="sub">Compliance Reimagined. Zero Violations. 24/7 Control.</div>
+      <a href="#contact" class="btn btn-w" data-t="bookfree">Book a Free Call</a>
+      <div class="scroll-hint"><i></i><span data-t="scroll">SCROLL</span></div>
+    </div>
+    <div class="cap cap-1"><div class="kicker" data-t="c1k">01 — YOUR FLEET</div><h2 class="wide" data-t="c1h">EVERY TRUCK</h2><p class="muted" data-t="c1p">Every truck, every driver and every log in one place.</p></div>
+    <div class="cap cap-2"><div class="kicker" data-t="c2k">02 — HOURS OF SERVICE</div><h2 class="wide" data-t="c2h">EVERY CLOCK</h2><p class="muted" data-t="c2p">11h, 14h, 30-min and 70h limits watched in real time.</p></div>
+    <div class="cap cap-3"><div class="kicker" data-t="c3k">03 — COAST TO COAST</div><h2 class="wide" data-t="c3h">24/7 CONTROL</h2><p class="muted" data-t="c3p">A dedicated team behind your fleet, day and night.</p><a href="#contact" class="btn btn-w btn-sm" style="margin-top:18px" data-t="bookc">Book a Call</a></div>
+  </div>
+</section>
+
+<!-- DASHBOARD -->
+<section class="dash-sec">
+  <div class="w" style="text-align:center;margin-bottom:46px">
+    <div class="kicker reveal" data-t="dk">THE CONTROL ROOM</div>
+    <h2 class="h2 grad reveal" style="margin-top:12px" data-t="dh">Your fleet, live.</h2>
+  </div>
+  <div style="padding:0 40px">
+    <div class="dash dk reveal">
+      <div class="dash-in">
+        <div class="dash-side">
+          <div class="logo">UNITED<b>HUB</b></div>
+          <span class="on">▦ Dashboard</span><span>◷ HOS Logs</span><span>⚠ Violations</span><span>▣ ELD Devices</span><span>◉ LPR Cameras</span><span>☰ Reports</span><span>✉ Support</span>
+        </div>
+        <div class="dash-main">
+          <div class="dash-top"><span>▦ Dashboard</span><span class="muted"><span class="accent live">●</span> Monitoring live · Fleet 42 trucks</span></div>
+          <div class="kpis">
+            <div class="kpi big"><small>Good evening, Carrier</small><b>0 <small>violations today</small></b></div>
+            <div class="kpi"><small>Logs certified</small><b>184</b></div>
+            <div class="kpi"><small>Alerts sent</small><b style="color:var(--warn)">3</b></div>
+            <div class="kpi"><small>Drive time left avg</small><b class="accent" data-clock>06:12</b></div>
+          </div>
+          <div class="tbl">
+            <div class="tr th"><span>DRIVER</span><span>TRUCK</span><span>STATUS</span><span>DRIVE LEFT</span><span>CYCLE</span></div>
+            <div class="tr"><span>Driver A</span><span class="muted">Truck #101</span><span class="accent">● Driving</span><span data-clock>05:22</span><span class="muted">41:10</span></div>
+            <div class="tr"><span>Driver B</span><span class="muted">Truck #102</span><span style="color:var(--warn)">● Break due</span><span data-clock>00:28</span><span class="muted">22:45</span></div>
+            <div class="tr"><span>Driver C</span><span class="muted">Truck #103</span><span class="muted">● Off duty</span><span>11:00</span><span class="muted">60:00</span></div>
+            <div class="tr"><span>Driver D</span><span class="muted">Truck #104</span><span class="accent">● On duty</span><span data-clock>08:40</span><span class="muted">35:05</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="split">
+  <div class="split-globe"><canvas class="globe" aria-hidden="true"></canvas></div>
+  <div class="w">
+    <div class="split-l reveal">
+      <span class="pill" data-t="sp">▣ Transparent Performance</span>
+      <h2 class="h2 grad" style="margin:22px 0 14px" data-t="sh">Statistics that<br>Outperform.</h2>
+      <p class="muted" style="font-size:15px;line-height:1.6;margin:0 0 26px" data-t="sd">Six years of keeping US carriers compliant, with a real person answering around the clock.</p>
+      <div class="btns"><a href="#contact" class="btn btn-w btn-sm" data-t="bookc">Book a Call</a><a href="#services" class="btn btn-o btn-sm" data-t="learn">Learn More</a></div>
+    </div>
+    <div class="split-r reveal">
+      <div class="stat"><span class="ic muted">◈</span><span class="v">6+</span><span class="k" data-t="s1">Years in ELD &amp; HOS</span></div>
+      <div class="stat"><span class="ic muted">◷</span><span class="v">24/7</span><span class="k" data-t="s2">Live Monitoring</span></div>
+      <div class="stat"><span class="ic muted">✉</span><span class="v" data-t="s3v">1 min</span><span class="k" data-t="s3">Avg. Response</span></div>
+      <div class="stat"><span class="ic muted">⚠</span><span class="v">0</span><span class="k" data-t="s4">Violations Goal</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- GATEWAY -->
+<section class="gateway" id="services">
+  <div class="w"><h2 class="h2 grad reveal" style="text-align:center;margin-bottom:60px" data-t="gh">Your Gateway to Compliance<br>is Just a Click Away.</h2></div>
+  <div class="w gw-grid">
+    <div class="gw-col">
+      <div class="card glass reveal"><div class="ico">◷</div><div><h3 data-t="g1h">HOS Log Management</h3><p class="muted" data-t="g1p">Logs reviewed, corrected and certified every day.</p><a href="#contact" class="chip" data-t="learn">Learn More</a></div></div>
+      <div class="card glass reveal"><div class="ico">▣</div><div><h3 data-t="g2h">ELD Devices</h3><p class="muted" data-t="g2p">Hardware sold, installed and activated for you.</p><a href="#contact" class="chip" data-t="order">Order Now</a></div></div>
+      <div class="card glass gold reveal"><div class="ico">◉</div><div><h3 data-t="g3h">LPR Cameras</h3><p class="muted" data-t="g3p">Plate recognition for every truck at your gate.</p><a href="#contact" class="chip" data-t="quote">Get a Quote</a></div></div>
+    </div>
+    <div class="gw-globe"><canvas class="globe" aria-hidden="true"></canvas></div>
+    <div class="gw-col">
+      <div class="card glass reveal"><div class="ico">⚑</div><div><h3 data-t="g4h">Safety &amp; CSA</h3><p class="muted" data-t="g4p">Keep your CSA score clean and your rates low.</p><a href="#contact" class="chip" data-t="learn">Learn More</a></div></div>
+      <div class="card glass violet reveal"><div class="ico">⚖</div><div><h3 data-t="g5h">DOT Inspection Help</h3><p class="muted" data-t="g5p">Live support for drivers during roadside checks.</p><a href="#contact" class="chip" data-t="learn">Learn More</a></div></div>
+      <div class="card glass reveal"><div class="ico">☏</div><div><h3 data-t="g6h">Driver Support</h3><p class="muted" data-t="g6p">A real person on Telegram or phone, 24/7.</p><a href="#contact" class="chip" data-t="contactus">Contact Us</a></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- RULES TABLE -->
+<section id="monitoring" style="padding:90px 0 110px;text-align:center">
+  <div class="w">
+    <h2 class="h2 grad reveal" data-t="rh">Deep Monitoring. Direct Control.</h2>
+    <p class="muted" style="font-size:14px;margin:14px 0 50px" data-t="rp">Every Hours-of-Service rule, watched for every driver.</p>
+    <div class="rules reveal" style="text-align:left">
+      <div class="rr"><span class="n"><i style="background:#e8ecf5">11</i><span>11-Hour Drive<small data-t="r1s">Driving limit</small></span></span><span>11:00</span><span data-clock>05:22</span><span><span class="st"><span class="accent">●</span> <span data-t="tracked">Tracked</span></span></span><span class="muted" style="text-align:right">HOS ›</span></div>
+      <div class="rr"><span class="n"><i style="background:#c9d1df">14</i><span>14-Hour Window<small data-t="r2s">On-duty window</small></span></span><span>14:00</span><span data-clock>08:40</span><span><span class="st"><span class="accent">●</span> <span data-t="tracked">Tracked</span></span></span><span class="muted" style="text-align:right">HOS ›</span></div>
+      <div class="rr"><span class="n"><i style="background:#f2c66d">30</i><span>30-Min Break<small data-t="r3s">After 8h driving</small></span></span><span>00:30</span><span data-clock>00:28</span><span><span class="st"><span style="color:var(--warn)">●</span> <span data-t="alert">Alert sent</span></span></span><span class="muted" style="text-align:right">Breaks ›</span></div>
+      <div class="rr"><span class="n"><i style="background:#9fb4ff">70</i><span>70-Hour Cycle<small data-t="r4s">8-day cycle</small></span></span><span>70:00</span><span>41:10</span><span><span class="st"><span class="accent">●</span> <span data-t="tracked">Tracked</span></span></span><span class="muted" style="text-align:right">Cycle ›</span></div>
+      <div class="rr"><span class="n"><i style="background:#c9d1df">U</i><span>Unassigned Time<small data-t="r5s">Driving events</small></span></span><span>—</span><span>0</span><span><span class="st"><span class="accent">●</span> <span data-t="cleared">Cleared</span></span></span><span class="muted" style="text-align:right">Logs ›</span></div>
+      <div class="rr"><span class="n"><i style="background:#2ee59d">D</i><span>DOT Readiness<small data-t="r6s">Roadside inspection</small></span></span><span>—</span><span>100%</span><span><span class="st"><span class="accent">●</span> <span data-t="ready">Ready</span></span></span><span class="muted" style="text-align:right">Safety ›</span></div>
+    </div>
+    <p class="muted" style="font-size:12px;margin-top:26px" data-t="rnote">Limits shown follow FMCSA property-carrier rules. Values are a sample.</p>
+  </div>
+</section>
+
+<!-- PLANS -->
+<section id="plans" class="wplans">
+  <div class="w" style="text-align:center">
+    <div class="kicker reveal" data-t="pk">CHOOSE YOUR PLAN</div>
+    <h2 class="wide reveal" style="font-size:clamp(30px,4.4vw,56px);margin:14px 0 54px" data-t="ph">PICK YOUR PACE</h2>
+  </div>
+  <div class="wcards">
+    <article class="wcard reveal">
+      <div class="wtop" style="background:linear-gradient(160deg,#eef1f4,#dfe8ee)">
+        <h3>S T A R T</h3><div class="avail" data-t="pavail">Custom pricing for your fleet</div>
+        <div class="phone"><div class="ph-h">LOG CHECK</div><div class="ph-t">Daily Log Review</div><div class="ph-row"><i>✓</i>Last report: certified · 2 hours ago</div><svg viewBox="0 0 260 50" class="wave"><path d="M0 35 H60 V15 H120 V35 H170 V25 H260" fill="none" stroke="#2ee59d" stroke-width="2"/></svg></div>
+      </div>
+      <div class="wbody">
+        <div class="dots"><i style="background:#111"></i><i style="background:#9aa3ad"></i><span data-t="t1">1–5 trucks</span></div>
+        <p data-t="p1p">Everything to keep logs clean:</p>
+        <ul><li data-t="p1a">Daily log review &amp; certify</li><li data-t="p1b">Violation alerts</li><li data-t="p1c">Unassigned time cleared</li><li data-t="p1d">Telegram support</li></ul>
+        <a href="#contact" class="wbtn" data-plan="START" data-t="getq">GET A QUOTE</a><a href="https://t.me/unitedeldhub" target="_blank" rel="noopener" class="wbtn o" data-t="asktg">ASK ON TELEGRAM</a>
+      </div>
+    </article>
+    <article class="wcard pop reveal">
+      <div class="wtop" style="background:linear-gradient(160deg,#e4f8ef,#dcefef 55%,#e6f1f7)">
+        <span class="tag-pop" data-t="pop">MOST POPULAR</span>
+        <h3>P R O</h3><div class="avail" data-t="pavail">Custom pricing for your fleet</div>
+        <div class="phone"><div class="ph-h">HOS SCREENER</div><div class="ph-t">Drive time left · <b data-clock>05:22</b></div><div class="ph-row"><i>✓</i>30-min break planned · driver notified</div><svg viewBox="0 0 260 50" class="wave"><path d="M0 30 H40 V12 H95 V30 H120 V20 H180 V38 H260" fill="none" stroke="#2ee59d" stroke-width="2"/></svg><div class="ph-row dim"><i>✓</i>Violations today: 0</div></div>
+      </div>
+      <div class="wbody">
+        <div class="dots"><i style="background:#111"></i><i style="background:#2ee59d"></i><i style="background:#9aa3ad"></i><span data-t="t2">6–50 trucks</span></div>
+        <p data-t="p2p">Everything on START, plus</p>
+        <ul><li data-t="p2a">24/7 live HOS monitoring</li><li data-t="p2b">DOT inspection help</li><li data-t="p2c">CSA score protection</li><li data-t="p2d">Daily owner brief</li></ul>
+        <a href="#contact" class="wbtn" data-plan="PRO" data-t="getq">GET A QUOTE</a><a href="https://t.me/unitedeldhub" target="_blank" rel="noopener" class="wbtn o" data-t="asktg">ASK ON TELEGRAM</a>
+      </div>
+    </article>
+    <article class="wcard reveal">
+      <div class="wtop" style="background:linear-gradient(160deg,#e7eefb,#e3f3ee)">
+        <h3>F L E E T</h3><div class="avail" data-t="pavail">Custom pricing for your fleet</div>
+        <div class="phone"><div class="ph-h">FLEET HUB</div><div class="ph-t">64 trucks · 71 drivers</div><div class="ph-row"><i>✓</i>ELD devices installed &amp; active</div><div class="ph-row"><i>✓</i>LPR gate camera · 08:07 IN</div><div class="ph-row dim"><i>✓</i>Dedicated log team online</div></div>
+      </div>
+      <div class="wbody">
+        <div class="dots"><i style="background:#111"></i><i style="background:#2ee59d"></i><i style="background:#7ea6ff"></i><span data-t="t3">50+ trucks</span></div>
+        <p data-t="p3p">Everything on PRO, plus</p>
+        <ul><li data-t="p3a">Dedicated log team</li><li data-t="p3b">ELD devices &amp; installation</li><li data-t="p3c">LPR cameras</li><li data-t="p3d">Custom reporting</li></ul>
+        <a href="#contact" class="wbtn" data-plan="FLEET" data-t="getq">GET A QUOTE</a><a href="https://t.me/unitedeldhub" target="_blank" rel="noopener" class="wbtn o" data-t="asktg">ASK ON TELEGRAM</a>
+      </div>
+    </article>
+  </div>
+  <p class="muted" style="text-align:center;font-size:14px;margin:30px 20px 0" data-t="pfree">Free fleet log audit for every new partner.</p>
+</section>
+
+<!-- STEPS -->
+<section class="split" id="steps">
+  <div class="split-globe" style="width:480px"><canvas class="globe" aria-hidden="true"></canvas></div>
+  <div class="w">
+    <div class="split-l reveal">
+      <span class="pill" data-t="stp">⚑ Getting started</span>
+      <h2 class="h2 grad" style="margin:22px 0 16px" data-t="sth">Seamless Start<br>for Your Fleet.</h2>
+      <p class="muted" style="font-size:15px;line-height:1.6;margin:0 0 26px" data-t="std">Onboarding takes a day, not weeks. One call, ELD access, and our team takes over your logs.</p>
+      <div class="btns"><a href="#contact" class="btn btn-w btn-sm" data-t="bookc">Book a Call</a><a href="#monitoring" class="btn btn-o btn-sm" data-t="learn">Learn More</a></div>
+    </div>
+    <div class="split-r steps reveal">
+      <div class="bar"></div>
+      <ol>
+        <li><small data-t="st1k">Step 01</small><b data-t="st1h">Free Call</b><span data-t="st1p">Tell us your fleet size and ELD provider.</span></li>
+        <li><small data-t="st2k">Step 02</small><b data-t="st2h">Connect</b><span data-t="st2p">We get ELD access and meet your drivers.</span></li>
+        <li><small data-t="st3k">Step 03</small><b data-t="st3h">We Take Control</b><span data-t="st3p">24/7 monitoring starts. You focus on loads.</span></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- SHOWCASE -->
+<section class="show">
+  <div class="show-in">
+    <div class="dash dk reveal" style="margin:0">
+      <div class="dash-in" style="min-height:420px">
+        <div class="dash-side">
+          <div class="logo">UNITED<b>HUB</b></div>
+          <span>▦ Dashboard</span><span>◷ HOS Logs</span><span class="on">⚠ Violations</span><span>▣ ELD Devices</span><span>◉ LPR Cameras</span><span>☰ Reports</span>
+        </div>
+        <div class="dash-main">
+          <div class="dash-top"><span>⚠ Violation Alerts</span><span class="muted"><span class="accent live">●</span> Live</span></div>
+          <div class="kpi" style="border-color:rgba(242,198,109,.35)"><small>ALERT · Mon 14:12</small><b style="font-size:18px">Truck #102 — 30-min break due in <span data-clock>00:28</span></b><small>Driver notified · dispatcher looped in · safe stop planned</small></div>
+          <div class="kpi"><small>ALERT · Mon 09:40</small><b style="font-size:18px">Truck #104 — 14h window closes at 19:00</b><small class="accent">Resolved</small></div>
+          <div class="kpis" style="grid-template-columns:repeat(3,1fr)">
+            <div class="kpi"><small>Risks caught today</small><b>2</b></div>
+            <div class="kpi"><small>Violations</small><b class="accent">0</b></div>
+            <div class="kpi"><small>Edits fixed</small><b>3</b></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="show-txt reveal">
+      <h2 class="h2 grad" data-t="shh">HOS Control</h2>
+      <p class="muted" style="font-size:15px;line-height:1.6;margin:10px 0 40px" data-t="shp">Every clock, every driver, every day — handled by people who know FMCSA rules.</p>
+      <div class="feat"><i></i><div><b data-t="f1h">Live Monitoring</b><span class="muted" style="font-size:14px" data-t="f1p">Every ELD log and HOS clock watched in real time.</span></div></div>
+      <div class="feat"><i></i><div><b data-t="f2h">Violation Alerts</b><span class="muted" style="font-size:14px" data-t="f2p">Drivers and dispatch warned before a limit runs out.</span></div></div>
+      <div class="feat"><i></i><div><b data-t="f3h">Daily Brief</b><span class="muted" style="font-size:14px" data-t="f3p">A short report for owners: logs, alerts, fixes.</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta dk reveal">
+  <canvas id="bars" aria-hidden="true"></canvas>
+  <div class="cta-txt">
+    <h2 class="h2 grad" style="font-size:clamp(36px,5.4vw,76px)" data-t="ch">Instant Onboarding<br>&amp; Fleet Setup</h2>
+    <p class="muted" style="font-size:15px;margin:16px 0 26px" data-t="cp">Clean logs within a day!</p>
+    <div class="btns"><a href="#contact" class="btn btn-w btn-sm" data-t="bookc">Book a Call</a><a href="#contact" class="btn btn-o btn-sm" data-t="audit">Free Audit</a></div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="w">
+    <div class="contact-l reveal">
+      <span class="pill" data-t="cop">✉ Contact</span>
+      <h2 class="h2 grad" style="margin:22px 0 16px" data-t="coh">Ready for<br>clean logs?</h2>
+      <p class="muted" style="font-size:15px;line-height:1.6;margin:0" data-t="cod">Leave a request — we reply within a minute, 24/7.</p>
+      <p class="contact-links">
+        Telegram: <a class="accent" href="https://t.me/unitedeldhub" target="_blank" rel="noopener">t.me/unitedeldhub</a><br>
+        Instagram: <a class="accent" href="https://www.instagram.com/unitedeldhub/" target="_blank" rel="noopener">@unitedeldhub</a><br>
+        YouTube: <a class="accent" href="https://www.youtube.com/@unitedeldhub" target="_blank" rel="noopener">@unitedeldhub</a>
+        <span data-c="phone" hidden><br><span data-t="lphone">Phone</span>: <a class="accent" data-c-link></a></span>
+        <span data-c="email" hidden><br>Email: <a class="accent" data-c-link></a></span>
+      </p>
+    </div>
+    <form class="glass reveal" id="lead" novalidate>
+      <label><span data-t="lcompany">Company name</span><input name="company" required maxlength="120" autocomplete="organization" placeholder="ABC Trucking LLC"></label>
+      <label><span data-t="lcontact">Phone, Telegram or email</span><input name="contact" required maxlength="120" placeholder="+1 ..."></label>
+      <label><span data-t="ltrucks">Number of trucks</span><select name="trucks"><option>1–5</option><option>6–20</option><option>21–50</option><option>50+</option></select></label>
+      <input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button class="btn btn-w" type="submit" data-t="send">Send Request</button>
+      <div class="ok" id="ok" role="status" aria-live="polite"></div>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="w f-grid">
+    <div><div class="logo" style="margin-bottom:16px"><img src="/assets/logo-mark.svg" alt="" width="28" height="28">UNITED<b>HUB</b></div><div class="muted" style="line-height:1.7">United ELD Hub<br><span data-c="address" hidden><span data-c-text></span><br></span><span data-t="ftag">ELD &amp; HOS control for US carriers, 24/7.</span></div></div>
+    <div><h4 data-t="n1">Services</h4><a href="#services" data-t="g1h">HOS Log Management</a><a href="#services" data-t="g2h">ELD Devices</a><a href="#services" data-t="g3h">LPR Cameras</a><a href="#services" data-t="g4h">Safety &amp; CSA</a></div>
+    <div><h4 data-t="fnav">Navigate</h4><a href="#monitoring" data-t="n2">Monitoring</a><a href="#plans" data-t="n3">Plans</a><a href="#steps" data-t="n4">How it works</a><a href="#contact" data-t="n5">Contact</a></div>
+    <div><h4 data-t="fsoc">Follow us</h4><a href="https://t.me/unitedeldhub" target="_blank" rel="noopener">Telegram</a><a href="https://www.instagram.com/unitedeldhub/" target="_blank" rel="noopener">Instagram</a><a href="https://www.youtube.com/@unitedeldhub" target="_blank" rel="noopener">YouTube</a><a href="https://www.facebook.com/share/1E4P9eU8tc/" target="_blank" rel="noopener">Facebook</a><a href="https://www.instagram.com/united.mediia/" target="_blank" rel="noopener">United Media</a></div>
+  </div>
+  <div class="w f-cards">
+    <a class="glass" href="https://t.me/unitedeldhub" target="_blank" rel="noopener"><small data-t="fc1">Message us on</small><br>Telegram</a>
+    <a class="glass" href="https://www.instagram.com/unitedeldhub/" target="_blank" rel="noopener"><small data-t="fc2">Follow on</small><br>Instagram</a>
+    <a class="glass" href="https://www.youtube.com/@unitedeldhub" target="_blank" rel="noopener"><small data-t="fc3">Watch on</small><br>YouTube</a>
+    <a class="glass" data-c="phone" hidden><small data-t="fc4">Call us</small><br><span data-c-text></span></a>
+  </div>
+  <div class="bigword" aria-hidden="true"><span>United Hub</span></div>
+  <div class="w muted" style="font-size:11px;margin-top:20px">© <span id="yr">2026</span> United ELD Hub. <span data-t="rights">All rights reserved.</span></div>
+</footer>
+
+<script src="/assets/i18n.js"></script>
+<script src="/assets/app.js"></script>
+<script src="/assets/scene.js"></script>
+</body>
+</html>
